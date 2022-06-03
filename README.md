@@ -13,7 +13,7 @@ Project to harvest citations from three titles
 
 CSV for each with
 
-|||||||||
+||||||||||
 |---|---|---|---|---|---|---|---|---|
 |DOI|Author Name|Author Order|Author Institution|Title|Year|Vol|Pages|Abstract|Keywords|Corresponding Author|
 
