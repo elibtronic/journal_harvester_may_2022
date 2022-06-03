@@ -13,33 +13,32 @@ Project to harvest citations from three titles
 
 CSV for each with
 
-||||||||||
-|---|---|---|---|---|---|---|---|---|
-|DOI|Author Name|Author Order|Author Institution|Title|Year|Vol|Pages|Abstract|Keywords|Corresponding Author|
+- DOI
+- Author Name
+- Author Order
+- Affiliation
+- Title
+- Date
+- Vol
+- Issue
+- Pages
+- Keywords
+- Abstract
 
 
 ## Title Details
 
 ### JSM
 
-- [DATA FOLDER](J_DATA_JSM)
-- DOIs via [Cross Ref](DOI_Harvest_via_Cross_Ref.ipynb)
-- Manually harvested 'Full-details' results list with _AN_ numbers in description
-- Rest of data is downloaded via [BSC Gather](BSC_Gather.ipynb)
-- Stiches thems together [with]()
+- [DATA FOLDER](JSM)
+- Still working on notebook to grab HK & Elsevier Content
 
 ### ESMQ
 
-- [DATA FOLDER](J_DATA_ESMQ)
-- DOIs via [Cross Ref](DOI_Harvest_via_Cross_Ref.ipynb)
-- Rest directly from [T & F](T_and_F_data_grab.ipynb) 
-- Stiches thems together [with]()
+- [DATA FOLDER](ESMQ)
+- Built using this [notebook](Harvester_CR_to_TNF.ipynb)
 
 ### SMR
 
-- [DATA FOLDER](J_DATA_SMR)
-- DOIs via [Cross Ref](DOI_Harvest_via_Cross_Ref.ipynb)
-- Manually harvested 'Full-details' results list with _AN_ numbers in description
-- Rest of data is downloaded via [BSC Gather](BSC_Gather.ipynb)
-- Stiches thems together [with]()
-
+- [DATA FOLDER](SMR)
+- Built using this [notebook](Harvester_CR_to_TNF.ipynb)
