@@ -1,2 +1,4 @@
 html_found/
+.ipynb_checkpoints/
+.DS_STORE
 *.html
